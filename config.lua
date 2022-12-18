@@ -38,11 +38,11 @@ Config = {
 		`U_F_M_CasinoShop_01`,
 	},
 
-	PhoneBank = false, 	-- Set this to false to use the popup payment system FOR CARD/BANK PAYMENTS instead of using phone invoices
+	PhoneBank = true, 	-- Set this to false to use the popup payment system FOR CARD/BANK PAYMENTS instead of using phone invoices
 						-- This doesn't affect Cash payments as they by default use confirmation now
 						-- This is helpful for phones that don't support invoices well
 
-	PhoneType = "qb", -- Change this setting to make invoices work with your phone script [still testing this currently]
+	PhoneType = "gks", -- Change this setting to make invoices work with your phone script [still testing this currently]
 						-- "qb" for qb-phone
 						-- "gks"" for GKSPhone
 
@@ -71,6 +71,7 @@ Config = {
 		['tequilala'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
 		['vanilla'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
 		['mechanic'] = { MinAmountforTicket = 1000, PayPerTicket = 500, Commission = 0.10, },
+		['ottos'] = { MinAmountforTicket = 75, PayPerTicket = 50, Commission = 0.10, },
 		['lostmc'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, gang = true, }, -- Example of a gang being supported
 	},
 
